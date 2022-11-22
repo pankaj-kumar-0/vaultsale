@@ -1,0 +1,33 @@
+.lock_token {
+  width: fit-content;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.lock_token p {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.lock_token .lock_token_box {
+  margin: 30px 0px;
+  max-width: 1093px;
+  padding: 30px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+}
+.lock_token .lower_info{
+    font-size: 15px;
+    width: 50%;
+    opacity: 0.5;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .lock_token .lower_info {
+    width: 80%;
+  }
+  
+}

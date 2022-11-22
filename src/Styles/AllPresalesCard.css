@@ -1,0 +1,155 @@
+.Presale_card {
+    width: 375px;
+    height: 372px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    padding: 20px 20px;
+  }
+  .Presale_card .sale_btn {
+    width: 100px;
+    height: 25px;
+    background-color: #1bb66c;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -3%;
+    right: 9%;
+  }
+  .Presale_card .name_row {
+    display: flex;
+  }
+  .Presale_card .name_row .img_box {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Presale_card .name_row .img_box img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .Presale_card .name_row h1 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Presale_card .progress_heading {
+    margin-top: 25px;
+    /* border: 2px solid rgb(255, 244, 244); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Presale_card .progress_heading .progress_box1 {
+    /* border: 2px solid rgb(20, 143, 145); */
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    color: #e5e5e5;
+  }
+  .Presale_card .progress_heading .progress_box2 {
+    /* border: 2px solid rgb(255, 0, 0); */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: right;
+    color: #e5e5e5;
+  }
+  .Presale_card .progress_heading .progress_box2 .total_bnb {
+    color: #e5e5e5;
+  }
+  .Presale_card .progress_heading .progress_box2 .bnb_persentage {
+    color: #e5e5e5;
+  }
+  .Presale_card .progress_bg {
+    margin-top: 20px;
+    background-color: #212121;
+    border-radius: 48px;
+    height: 10px;
+  }
+  .Presale_card .progress_line {
+    background-color: #ffc700;
+    width: 45%;
+    height: 100%;
+    border-radius: 48px;
+  }
+  .Presale_card .cap_box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Presale_card .cap_box .cap {
+    width: 50%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #e5e5e5;
+  }
+  .Presale_card .cap_box span {
+    font-size: 18px;
+    color: #e5e5e5;
+  }
+  
+  .Presale_card .lower_box {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Presale_card .lower_box .sale_end_time {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #E5E5E5;
+  }
+  .Presale_card .lower_box .sale_end_time span {
+      color: #E5E5E5;
+      font-size: 14px;
+  }
+  .Presale_card .lower_box .view_pool_btn{
+      width: 125px;
+      height: 40px;
+      left: 506px;
+      top: 535px;
+      background-color: #7D7D7D;
+      border-radius: 48px;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+  .Presale_card .lower_line{
+      position: absolute;
+      width: 91%;
+      margin: auto;
+      height: 1px;
+      background: #000000;
+      bottom: 23%;
+  }
+  .Presale_card .middle_line{
+      position: absolute;
+      width: 1px;
+      height: 65px;
+      background: #000000;
+      bottom: 30%;
+      left: 50%;
+  }
+  

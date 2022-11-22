@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  position: absolute;
+  top: 83.2px;
+}
+
+.main_section {
+  margin-left: 250px;
+  position: relative;
+  width: calc(100vw - 250px);
+  /* height: calc(100vh - 83.2px); */
+  height: fit-content;
+  min-height: calc(100vh - 83.2px);
+  background-color: #000000;
+  /* border: 2px solid red; */
+}
+@media (max-width: 1000px) {
+  .main_section {
+    margin-left: 0px;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .main_section {
+    margin-top: 37.6px;
+  }
+}
+

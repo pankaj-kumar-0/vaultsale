@@ -1,0 +1,45 @@
+.card {
+    width: 300px;
+    height: 150px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.card .circle_box {
+    width: 30%;
+}
+
+.card .text_box {
+    width: 60%;
+    /* padding-left: 10px; */
+  
+}
+
+.card .circle_box .circle {
+    width: 65px;
+    height: 65px;
+    background: #C4C4C4;
+    border-radius: 70%;
+    text-align: center;
+}
+
+.card .text_box h1 {
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.card .text_box p {
+    font-size: 16px;
+    /* font-Weight: 600 Semi Bold ; */
+    Line-height: 21.76px;
+    text-align: left;
+}

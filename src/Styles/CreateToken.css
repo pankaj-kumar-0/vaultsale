@@ -1,0 +1,95 @@
+.create_token_page {
+  /* border: 2px solid red; */
+  /* padding-left: 235px; */
+  padding-bottom: 30px;
+  padding-top: 50px;
+  width: fit-content;
+  max-width: 90%;
+  margin: auto;
+}
+.create_token_page .pera {
+  font-size: 20px;
+  line-height: 22px;
+  margin: 10px 0px ;
+}
+.create_token_page .token_container {
+  /* margin-top: 25px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.create_token_page .token_container .token_box {
+  width: 450px;
+  /* height: 530px; */
+  background: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+  /* margin: 10px; */
+}
+.create_token_page .token_container .token_card {
+  width: 500px;
+  /* height: 300px; */
+  background: #2c2c2c;
+  border-radius: 10px;
+  /* margin-right: 10px;
+  margin-left: 40px; */
+  margin: 10px;
+  padding: 20px;
+}
+.create_token_page .token_container .token_box .form_box{
+    margin: 50px 30px;
+}
+
+.create_token_page .token_container .token_box .form_box .lower_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.create_token_page .token_container .token_box .form_box .lower_box .guide_box{
+    width: 65%;
+    display: flex;
+    
+}
+.create_token_page .token_container .token_box .form_box .lower_box .guide_box .question{
+    width: 46%;
+    font-size: 15px;
+    opacity: 0.5;
+    
+}
+.create_token_page .token_container .token_box .form_box .lower_box .guide_box a{
+    width: 50%;
+    color: #facb0b;
+    
+}
+.create_token_page .token_container .token_box .form_box .lower_box .submit_btn{
+    width: 35%;
+    text-align: center;
+}
+
+.create_token_page .token_container .token_card .Token_card_text{
+    font-size: 15px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+.create_token_page .token_container .token_card .token_box1{
+    display: flex;
+    margin-top: 50px;
+}
+.create_token_page .token_container .token_card .token_box1 .Token_card_text:nth-child(2){
+    margin-left: 100px;
+}
+.create_token_page .token_container .token_card .token_box1 img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+.create_token_page .token_container .token_card .token_box1 #symbol{
+    margin-left: 87px;
+}
+.create_token_page .token_container .token_card #lower_heading{
+    opacity: 0.2;
+    margin-top: 10px;
+}

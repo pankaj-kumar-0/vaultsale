@@ -1,0 +1,10 @@
+.all_lockers{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    /* border: 2px solid rebeccapurple; */
+}
+.all_lockers p{
+    font-size: 20px;
+    margin: 10px 0px;
+}

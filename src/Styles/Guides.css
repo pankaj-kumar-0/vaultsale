@@ -1,0 +1,33 @@
+.guide_page{
+    padding-top: 60px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.guide_page p{
+    margin: 15px auto;
+    font-size: 18px;
+    width: 80%;
+}
+.guide_page .buttons{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 45px;
+}
+.guide_page .gudie_card_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+  .guide_page .buttons{
+    width: 90%;
+    flex-wrap: wrap;
+}
+}

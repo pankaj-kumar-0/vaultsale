@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.label_input {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.area_input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 100%;
+  height: 38px;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 4px rgb(0 0 0 / 20%);
+}
+.line {
+  background-color: rgba(255, 255, 255, 0.908);
+  opacity: 0.4;
+}
+
+.button_box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.button_box .link_box {
+  width: fit-content;
+  font-size: 16px;
+  opacity: 0.5;
+}
+.button_box span {
+  color: #ffc700;
+  cursor: pointer;
+  opacity: 1;
+  margin-left: 5px;
+}
+.button_box .button_group {
+  width: fit-content;
+  text-align: end;
+}
+
+@media (max-width: 800px) {
+  .button_box {
+    justify-content: center;
+  }
+  .button_box .link_box {
+    margin: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .label_input {
+    font-size: 16px;
+  }
+  .button_box .button_group {
+    text-align: center;
+  }
+}

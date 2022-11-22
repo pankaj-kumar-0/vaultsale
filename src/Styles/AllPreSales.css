@@ -1,0 +1,87 @@
+.all_presales_page {
+  /* border: 2px solid red; */
+  padding-bottom: 30px;
+  /* padding-top: 50px; */
+  /* width: fit-content; */
+  max-width: 96%;
+  margin: auto;
+}
+
+
+.all_presales_page .top_sorting_bar {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  /* width: 100%; */
+}
+.all_presales_page .top_sorting_bar .sorting_bar_heading_box {
+  width: 40%;
+}
+.all_presales_page .top_sorting_bar .sorting_box {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box1 {
+  /* border: 2px solid rgb(55, 255, 0); */
+  width: 60%;
+}
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box2 {
+  /* border: 2px solid rgb(255, 244, 244); */
+  width: 40%;
+  line-height: 20px;
+}
+
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box1 .search_bar {
+  line-height: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 4px rgb(0 0 0 / 20%);
+}
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box2 .row_heading {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* .all_presales_page .top_sorting_bar .sorting_box .all_pre_box2 .row_heading #Filter_heading{
+
+}
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box2 .row_heading #sort_heading{
+
+} */
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box2 .row_heading i {
+  padding-left: 4px;
+}
+.all_presales_page .top_sorting_bar .sorting_box .all_pre_box2 .row_heading #filter {
+  text-align: center;
+  width: 50%;
+}
+.all_presales_page
+  .top_sorting_bar
+  .sorting_box
+  .all_pre_box2
+  .row_heading
+  #sort {
+  width: 50%;
+  text-align: center;
+}
+
+.all_presales_page .all_pre_sales {
+  /* border: 2px solid rgb(255, 244, 244); */
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

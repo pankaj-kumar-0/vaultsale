@@ -1,0 +1,107 @@
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #191919;
+    color: #ffffff;
+    padding: 15px;
+    list-style: none;
+}
+
+.nav_bar .nav_items .logo {
+   padding-left: 15px;
+   position: relative;
+}
+.nav_bar .nav_items .logo img{
+   margin: 5px;
+}
+.nav_bar .nav_items .logo img:nth-child(2){
+   margin-top: 6px;
+   position: absolute;
+}
+
+.nav_bar #items{
+    position: absolute;
+    left: 250px;
+    /* border: 2px solid white; */
+}
+.nav_bar .nav_items .items_box{
+    /* border: 2px solid whitesmoke; */
+    font-size: 16px;
+}
+
+.nav_bar #user_nav{
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.nav_bar #user_nav .user_box{
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.nav_bar #user_nav .user_box img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.nav_bar #user_nav .user_box .user_name{
+    font-size: 16px;
+}
+.nav_bar #user_nav .nav_btn{
+    background-color: #000000;
+    border-radius: 48px;
+    height: 40px;
+    width: 125px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    #toggle_btn{
+        display:block;
+    }
+    .nav_bar .nav_items .logo {
+        padding-left: 45px;
+    }
+}
+@media (max-width: 800px){
+    .nav_bar #items{
+        top: 83.2px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        background-color: #000000;
+        padding: 10px;
+    }
+    .nav_bar #user_nav {
+        padding-right: 20px;
+    }
+    .nav_bar #user_nav .user_box {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .nav_bar #user_nav .user_box{
+        display: none;
+    }
+    .nav_bar .nav_items .logo {
+        padding-left: 25px;
+    }
+    .nav_bar #user_nav {
+        padding-right: 0px;
+    }
+  }
+  

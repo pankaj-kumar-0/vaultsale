@@ -1,0 +1,31 @@
+.home_section {
+  /* border: 2px solid red; */
+  padding-top: 60px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.home_section .pera {
+  margin: 15px auto;
+  width: 50%;
+  font-size: 17px;
+}
+.home_section .btn_group {
+  padding: 15px 0px;
+}
+.home_section .cards_box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .home_section .pera {
+    width: 86%;
+  }
+  .home_section .btn_group {
+    padding-bottom: 60px;
+  }
+}
